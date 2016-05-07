@@ -45,3 +45,5 @@ However, a 3 server farm (1 web server, 1 app server, 1 database server) would l
 Add or remove as many application servers as necessary.
 
 Some Service Application scripts such as Excel Services, Visio Services, and PerformancePoint will also create a Secure Store entry so the Secure Store must be deployed before those scripts can be run.
+
+Many of the PowerShell scripts create databases, if you are using a SQL alias instead of an instance name make sure you replace this line DatabaseServer="SERVER\INSTANCE1" with DatabaseServer="Your_SQL_ALIAS"
