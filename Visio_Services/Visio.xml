@@ -1,0 +1,21 @@
+<Visio>
+  <ServiceApplication
+      ServiceApplicationName="Visio Services Service Application"
+      AppPoolName="SharePoint - Service Apps"
+      AppPoolAccount="DOMAIN\ACCOUNT">
+    <StartServicesOnServer>
+      <Server
+        Name="APP_SERVER1">
+      </Server>
+      <Server
+        Name="APP_SERVER2">
+      </Server>
+    </StartServicesOnServer>
+    <SecureStoreTarget
+      FarmAccount="DOMAIN\FARM_ACCOUNT"
+      UnattendedServiceAccount="DOMAIN\VISIO_ACCOUNT"
+      UnattendedServiceAccountPassword="VISIO ACCOUNT PASS"
+      TargetApplicationEmail="DONOTREPLY@YOURDOMAIN.COM">
+    </SecureStoreTarget>
+  </ServiceApplication>
+</Visio>
