@@ -1,3 +1,6 @@
+**RUN THE SECURE STORE SCRIPT BEFORE THIS SCRIPT**
+
+
 This PowerShell script reads from a corresponding XML file.  
 
 Update only the XML file to reflect your specific SharePoint farm environment (e.g., server names, application pool, service accounts).  
