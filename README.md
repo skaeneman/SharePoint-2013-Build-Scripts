@@ -43,3 +43,5 @@ However, a 3 server farm (1 web server, 1 app server, 1 database server) would l
         </StartServicesOnServer>
 
 Add or remove as many application servers as necessary.
+
+Some Service Application scripts such as Excel Services, Visio Services, and PerformancePoint will also create a Secure Store entry so the Secure Store must be deployed before those scripts can be run.
