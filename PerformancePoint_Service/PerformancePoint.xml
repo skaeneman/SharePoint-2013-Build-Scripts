@@ -1,0 +1,23 @@
+<PerformancePoint>
+  <ServiceApplication
+      ServiceApplicationName="PerformancePoint Service Application"
+      AppPoolName="SharePoint - Service Apps"
+      AppPoolAccount="DOMAIN\ACCOUNT"
+      DatabaseServer="SERVER\INSTANCE1"
+      DatabaseName="WSS_SP2013_PerformancePoint">
+    <StartServicesOnServer>
+      <Server
+        Name="APP_SERVER1">
+      </Server>
+      <Server
+        Name="APP_SERVER2">
+      </Server>
+    </StartServicesOnServer>
+    <SecureStoreTarget
+      FarmAccount="DOMAIN\FARM_ADMIN"
+      UnattendedServiceAccount="DOMAIN\PERF_POINT"
+      UnattendedServiceAccountPassword="YOUR PASS GOES HERE"
+      TargetApplicationEmail="DONOTREPLY@YOURDOMAIN.COM">
+    </SecureStoreTarget>
+  </ServiceApplication>
+</PerformancePoint>
