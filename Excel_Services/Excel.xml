@@ -2,7 +2,7 @@
   <ServiceApplication
       ServiceApplicationName="Excel Services"
       AppPoolName="SharePoint - Excel"
-      AppPoolAccount="DOMIAN\ACCOUNT">
+      AppPoolAccount="DOMAIN\ACCOUNT">
     <StartServicesOnServer>
       <Server
         Name="APP_SERVER1">
