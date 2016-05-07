@@ -1,0 +1,17 @@
+<WordAutomation>
+  <ServiceApplication
+      ServiceApplicationName="Word Automation Services"
+      AppPoolName="SharePoint - Service Apps"
+      AppPoolAccount="DOMAIN\ACCOUNT"
+      DatabaseServer="SERVER\INSTANCE1"
+      DatabaseName="WSS_SP2013_WordAutomation">
+    <StartServicesOnServer>
+      <Server
+        Name="APP_SERVER1">
+      </Server>
+      <Server
+        Name="APP_SERVER2">
+      </Server>
+    </StartServicesOnServer>
+  </ServiceApplication>
+</WordAutomation>
