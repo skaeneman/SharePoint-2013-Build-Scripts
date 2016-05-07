@@ -1,4 +1,4 @@
-# SharePoint-2013-Build-Scripts
+# SharePoint 2013 Build Scripts
 These PowerShell scripts read from corresponding XML files and will create the service application, service application proxy, and start the service instance on the application servers.  
 
 Update only the XML file to reflect your specific SharePoint farm environment (e.g., server names, application pool, service accounts).  
