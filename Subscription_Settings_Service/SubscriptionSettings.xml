@@ -1,0 +1,17 @@
+<SubscriptionSettingsService>
+  <ServiceApplication
+      ServiceApplicationName="Microsoft SharePoint Foundation Subscription Settings Service Application"
+      AppPoolName="SharePoint - Service Apps"
+      AppPoolAccount="DOMAIN\ACCOUNT"
+      DatabaseServer="SERVER\INSTANCE1"
+      DatabaseName="WSS_SP2013_SubscriptionSettings">
+    <StartServicesOnServer>
+      <Server
+        Name="APP_SERVER1">
+      </Server>
+      <Server
+        Name="APP_SERVER2">
+      </Server>
+    </StartServicesOnServer>
+  </ServiceApplication>
+</SubscriptionSettingsService>
