@@ -1,0 +1,17 @@
+<MachineTranslationService>
+  <ServiceApplication
+      ServiceApplicationName="Machine Translation Service"
+      AppPoolName="SharePoint - Service Apps"
+      AppPoolAccount="DOMAIN\ACCOUNT"
+      DatabaseServer="SERVER\INSTANCE1"
+      DatabaseName="WSS_SP2013_MachineTranslationService">
+    <StartServicesOnServer>
+      <Server
+        Name="APP_SERVER1">
+      </Server>
+      <Server
+        Name="APP_SERVER2">
+      </Server>
+    </StartServicesOnServer>
+  </ServiceApplication>
+</MachineTranslationService>
