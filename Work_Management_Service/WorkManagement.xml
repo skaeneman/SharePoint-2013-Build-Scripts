@@ -1,0 +1,15 @@
+<WorkManagement>
+  <ServiceApplication
+      ServiceApplicationName="Work Management Service Application"
+      AppPoolName="SharePoint - Service Apps"
+      AppPoolAccount="DOMAIN\ACCOUNT">
+    <StartServicesOnServer>
+      <Server
+        Name="APP_SERVER1">
+      </Server>
+      <Server
+        Name="APP_SERVER2">
+      </Server>
+    </StartServicesOnServer>
+  </ServiceApplication>
+</WorkManagement>
