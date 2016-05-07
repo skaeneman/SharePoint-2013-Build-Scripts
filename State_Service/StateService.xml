@@ -1,0 +1,7 @@
+<StateService>
+    <ServiceApplication
+       ServiceApplicationName="State Service"
+       DatabaseName ="WSS_SP2013_StateService"
+       DatabaseServer="SERVER\INSTANCE1">
+    </ServiceApplication>
+ </StateService> 
