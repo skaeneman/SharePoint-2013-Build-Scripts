@@ -1,0 +1,15 @@
+<AccessServices>
+    <ServiceApplication
+       ServiceApplicationName="Access Services"
+       AppPoolName="SharePoint - Service Apps"
+       AppPoolAccount="DOMAIN\ACCOUNT_NAME">
+        <StartServicesOnServer>
+           <Server
+             Name="APP_SERVER1">
+           </Server>
+           <Server
+             Name="APP_SERVER2">
+           </Server>      
+        </StartServicesOnServer>
+    </ServiceApplication>
+ </AccessServices> 
