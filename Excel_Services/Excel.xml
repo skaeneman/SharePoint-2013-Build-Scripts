@@ -1,0 +1,21 @@
+<Excel>
+  <ServiceApplication
+      ServiceApplicationName="Excel Services"
+      AppPoolName="SharePoint - Excel"
+      AppPoolAccount="DOMIAN\ACCOUNT">
+    <StartServicesOnServer>
+      <Server
+        Name="APP_SERVER1">
+      </Server>
+      <Server
+        Name="APP_SERVER2">
+      </Server>
+    </StartServicesOnServer>
+    <SecureStoreTarget
+      FarmAccount="DOMAIN\FARM_ACCOUNT"
+      UnattendedServiceAccount="DOMAIN\EXCEL_ACCOUNT"
+      UnattendedServiceAccountPassword="YOUR PASS GOES HERE"
+      TargetApplicationEmail="DONOTREPLY@YOURDOMAIN.COM">
+    </SecureStoreTarget>
+  </ServiceApplication>
+</Excel>
