@@ -14,12 +14,12 @@ For instance, if you were to put both the .ps1 and .xml files in a directory cal
 under the D: drive on your server then just open a PowerShell console and navigate to that “Scripts” 
 folder like below.
 
-*cd  .\Scripts*
+**cd  .\Scripts**
 
 To run the script and have it read from the xml file execute the below at the PowerShell console.  
 Note that the full path to the xml file must be given (e.g., “D:\Scripts\file.xml” and not just .\file.xml).
 
-*.\someScript.ps1  -XmlFilePath  "D:\Scripts\someFile.xml"*
+**.\someScript.ps1  -XmlFilePath  "D:\Scripts\someFile.xml"**
 
 Add or remove the number of application servers from the xml file. 
 For instance, if you have 2 application servers in the farm, 2 web servers, and a database server you
