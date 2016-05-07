@@ -1,0 +1,17 @@
+<AppManagement>
+    <ServiceApplication
+       ServiceApplicationName="App Management Service"
+       DatabaseName ="WSS_SP2013_AppManagement"
+       DatabaseServer="SERVER\INSTANCE1"
+       AppPoolName="SharePoint - Service Apps"
+       AppPoolAccount="DOMAIN\ACCOUNT">
+        <StartServicesOnServer>
+           <Server
+             Name="APP_SERVER1">
+           </Server>
+           <Server
+             Name="APP_SERVER2">
+           </Server>      
+        </StartServicesOnServer>
+    </ServiceApplication>
+ </AppManagement> 
