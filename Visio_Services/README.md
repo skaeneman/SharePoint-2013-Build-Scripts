@@ -1,4 +1,4 @@
- **Note: In order to make SCOM (SCCM) 2010/2012 work this service app must be called "Visio Services Service Application"**
+ **Note: In order to make SCOM (SCCM) 2010/2012 connection work this service app must be called "Visio Services Service Application"**
  
  **RUN THE SECURE STORE SCRIPT BEFORE THIS SCRIPT**
  
