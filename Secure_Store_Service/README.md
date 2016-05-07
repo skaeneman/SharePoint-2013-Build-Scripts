@@ -1,3 +1,5 @@
+**IMPORTANT:  RUN THIS SCRIPT AS THE FARM ADMIN NOT YOUR USER ACCOUNT**
+
 This PowerShell script reads from a corresponding XML file.  
 
 Update only the XML file to reflect your specific SharePoint farm environment (e.g., server names, application pool, service accounts).  
