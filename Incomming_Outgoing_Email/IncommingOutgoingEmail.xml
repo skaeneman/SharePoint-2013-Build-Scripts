@@ -1,0 +1,16 @@
+<Email>
+  <OutgoingEmail
+    OutboundSMTPServer="XXXXXXXXXX"
+    FromAddress="donotreply@XXXXXXXXXXX"
+    ReplyToAddress="donotreply@XXXXXXXXXXX"
+    CharacterSet="65001" />     
+  <IncommingEmail
+    IncommingEmailEnabled="True"
+    SettingsMode="Automatic"
+    EnableDirectoryManagement="True"
+    ActiveDirectoryOU=""
+    IcommingMailServer="XXXXXXXXXXXXX"
+    AcceptOnlyMessagesFromAuthenticatedUsers="False"
+    AllowCreationOfDistroGroups="True"
+    EmailServerDisplayAddress="XXXXXXXXX.com" />
+</Email>
